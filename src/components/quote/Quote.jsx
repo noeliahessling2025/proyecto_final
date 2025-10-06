@@ -5,7 +5,7 @@ const Quote = () => {
     <section className="quote-call">
       <h2>Ofrecemos una amplia gama de seguros diseñados para satisfacer cada necesidad.</h2>
       <h4>Conocé nuestras coberturas.</h4>
-      <button onClick={() => window.location.href = '/cotizar'}>Coberturas</button>
+      <button onClick={() => window.location.href = '/galery'}>Coberturas</button>
     </section>
   );
 };

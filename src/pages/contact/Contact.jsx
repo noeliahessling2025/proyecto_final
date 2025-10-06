@@ -2,7 +2,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import imagenFormulario from '../../images/formulario.jpeg'
-import styles from './contact.module.css'
+import styles from './Contact.module.css'
 
 const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
   const {
@@ -17,6 +17,7 @@ const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
     <form onSubmit={handleSubmit(onSubmit)} noValidate>
       {/* Nombre */}
       <div>
+        <h2>FORMULARIO DE CONTACTO</h2><br />
         <label htmlFor="nombre">Nombre y apellido:</label>
         <input
           id="nombre"
@@ -78,3 +79,5 @@ const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
 };
 
 export default FormularioUsuario;
+
+
