@@ -21,7 +21,7 @@ export default function ProductCard({ producto }) {
             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.03)'} 
             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-            <img 
+            <productos 
                 src={producto.image} 
                 alt={producto.nombre} 
                 style={styles.productImage} 
