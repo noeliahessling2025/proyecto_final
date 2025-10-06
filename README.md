@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+# Página web de React
+
+Este proyecto es una página web desarrollada con **React**. Ésta es una página web de una oficina de productores de seguros. La plantilla coberturas muestra el detalle de las coberturas, la plantilla servicios muestra los servicios ofrecidos y la plantilla contacto muestra el formulario para que el usuario envíe a la empresa.
+
+---
+
+## Tecnologías utilizadas
+
+- [React](https://reactjs.org/)
+- [React Hook Form](https://react-hook-form.com/)
+- CSS Modules
+
+---

@@ -1,0 +1,16 @@
+.quote-call {
+  padding: 2rem;
+  text-align: center;
+  background-color: #002b5b;
+  color: white;
+}
+
+.quote-call button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffaa00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}

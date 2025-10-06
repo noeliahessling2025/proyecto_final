@@ -1,0 +1,41 @@
+/* src/components/navbar/Navbar.module.css */
+
+/* Estilos para el contenedor principal del navbar */
+.navbarCustom {
+  background-color: #d3d2d2 !important; /* Un azul oscuro, por ejemplo */
+  padding: 10px 20px;
+}
+
+/* Estilos para el logo */
+.navbarLogo {
+  width: 150px;
+  height: auto;
+}
+
+/* Estilos para los enlaces de navegación */
+.navbarNavCustom .nav-link {
+  color: #ffffff; /* Color de texto blanco */
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Estilos para el enlace activo */
+.navbarNavCustom .nav-link.active {
+  color: #ffc107; /* Un color de acento para el enlace activo */
+}
+
+/* Estilos al pasar el mouse sobre los enlaces */
+.navbarNavCustom .nav-link:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 991px) {
+  .navbarNavCustom {
+    text-align: center;
+    background-color: #1565c0; /* Fondo del menú colapsado */
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

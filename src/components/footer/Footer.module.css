@@ -1,0 +1,106 @@
+.footerContainer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Estilos para la sección de redes sociales */
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialMedia p {
+  margin: 0;
+  font-weight: bold; /* Opcional: para destacar la leyenda */
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}
+
+.footerLinks a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .footerContent {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  
+  .socialMedia {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+.socialLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px; /* Tamaño del ícono */
+  transition: color 0.3s ease; /* Transición para un efecto suave */
+}
+
+/* ... (el resto de tu CSS) ... */
+
+.socialLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+/* Color de hover para Facebook */
+.socialLinks a:nth-child(1):hover {
+  color: #1877f2; 
+}
+
+/* Color de hover para Instagram */
+.socialLinks a:nth-child(2):hover {
+  color: #e1306c;
+}
+
+/* Color de hover para Twitter */
+.socialLinks a:nth-child(3):hover {
+  color: #1da1f2;
+}
+
+
+
+
+
+
