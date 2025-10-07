@@ -22,14 +22,14 @@ const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
         <input
           id="nombre"
           {...register('nombre', {
-            required: 'El nombre es obligatorio',
+            required: 'El nombre y apellido es obligatorio',
             minLength: {
               value: 3,
-              message: 'El nombre debe tener al menos 3 caracteres',
+              message: 'El nombre y apellido debe tener al menos 3 caracteres',
             },
           })}
         />
-        {errors.nombre && <p className="error">{errors.nombre.message}</p>}
+        {errors.nombre && <p className={styles.error}>{errors.nombre.message}</p>}
       </div>
 
       {/* Email */}
@@ -39,14 +39,14 @@ const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
           id="email"
           type="email"
           {...register('email', {
-            required: 'El correo es obligatorio',
+            required: 'El e-mail es obligatorio',
             pattern: {
               value: /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/,
-              message: 'Formato de correo no válido',
+              message: 'Formato de e-mail no válido',
             },
           })}
         />
-        {errors.email && <p className="error">{errors.email.message}</p>}
+        {errors.email && <p className={styles.error}>{errors.email.message}</p>}
       </div>
 
       {/* Mensaje */}
@@ -63,7 +63,7 @@ const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
       },
     })}
   />
-  {errors.mensaje && <p className="error">{errors.mensaje.message}</p>}
+  {errors.mensaje && <p className={styles.error}>{errors.mensaje.message}</p>}
 </div>
 
       {/* Botón de envío */}
