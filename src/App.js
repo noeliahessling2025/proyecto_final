@@ -6,8 +6,10 @@ import Contact from './pages/contact/Contact';
 import Galery from './pages/galery/Galery';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import Productos from './pages/productos/Productos'
-
+import Productos from './pages/productos/Productos';
+import ProductDetail from './pages/productDetail/ProductDetail';
+import ProductCreate from './pages/productCreate/ProductCreate';
+import { Toaster } from 'react-hot-toast';
 
 
 
@@ -22,10 +24,14 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/galery' element={<Galery />} />
           <Route path='/productos' element={<Productos />} />
+          <Route path="/producto/:id" element={<ProductDetail />} />
+          <Route path="/productos/nuevo" element={<ProductCreate />} />
+          
         </Routes>
     
       <Footer />
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }

@@ -37,7 +37,7 @@ export default function ProductCreate() {
     return (
         <div style={styles.container}>
             <div style={styles.formCard}>
-                <h2>Agregar Nuevo Producto</h2>
+                <h2>Agregar Nuevo Servicio</h2>
                 <form onSubmit={handleSubmit(onSubmit)} style={styles.form}>
                     <input style={styles.input} placeholder="Nombre" {...register("nombre", { required: "El nombre es obligatorio" })} />
                     {errors.nombre && <p style={styles.error}>{errors.nombre.message}</p>}
@@ -52,7 +52,7 @@ export default function ProductCreate() {
                     {errors.image && <p style={styles.error}>{errors.image.message}</p>}
 
                     <button type="submit" style={{ ...styles.button, background: '#3498db' }}>
-                        Guardar Producto
+                        Guardar Servicio
                     </button>
                 </form>
             </div>
