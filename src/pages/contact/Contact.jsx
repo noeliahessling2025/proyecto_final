@@ -2,7 +2,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import imagenFormulario from '../../images/formulario.jpeg'
-import styles from '../../pages/contact/Contact.module.css'
+import styles from './Contact.module.css'
 
 const FormularioUsuario = ({ onSubmit, defaultValues = {} }) => {
   const {
