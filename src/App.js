@@ -10,6 +10,7 @@ import Productos from './pages/productos/Productos'
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,6 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/galery' element={<Galery />} />
           <Route path='/productos' element={<Productos />} />
-
         </Routes>
     
       <Footer />
