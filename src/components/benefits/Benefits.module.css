@@ -7,9 +7,42 @@
 .benefits ul {
   list-style: none;
   padding: 0;
+  margin-bottom: 2rem;
 }
 
 .benefits li {
   margin: 0.5rem 0;
   font-size: 1.2rem;
+}
+
+.benefits-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.benefits-images img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.benefits-images img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .benefits-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefits-images img {
+    max-width: 90%;
+  }
 }

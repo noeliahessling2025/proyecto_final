@@ -14,3 +14,29 @@
   cursor: pointer;
   font-size: 1rem;
 }
+
+/* Responsive para tablets y pantallas medianas */
+@media (max-width: 768px) {
+  .quote-call {
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .quote-call button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive para móviles pequeños */
+@media (max-width: 480px) {
+  .quote-call {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .quote-call button {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+}

@@ -3,7 +3,6 @@ import imagenMoto from '../../images/moto.jpeg'
 import imagenAuto from '../../images/auto.jpeg'
 import imagenTaxi from '../../images/taxi.jpeg'
 
-
 const benefits = [
   'MOTO',
   'AUTO',
