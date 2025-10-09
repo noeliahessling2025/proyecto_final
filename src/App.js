@@ -26,10 +26,8 @@ function App() {
           <Route path='/productos' element={<Productos />} />
           <Route path="/producto/:id" element={<ProductDetail />} />
           <Route path="/productos/nuevo" element={<ProductCreate />} />
-          
         </Routes>
-    
-      <Footer />
+        <Footer />
       </BrowserRouter>
       <Toaster />
     </div>

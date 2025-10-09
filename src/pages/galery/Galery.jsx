@@ -12,11 +12,11 @@ export default function Galery() {
     <h2>COBERTURAS</h2>
     <img src={coberturas1} alt="coberturas1" style={{ width: '500px' }} /><br />
     <h2>DETALLE DE COBERTURAS:</h2>
-    <h3>Seguro para Moto: Rdad. Civil contra terceros (incluye grúa).</h3>
+    <h3>Seguro para Moto: Rdad. Civil contra terceros (incluye grúa). Precio mensual: $ 10.000</h3>
     <img src={imagenMoto} style={{ maxWidth: '30%', borderRadius: '12px', marginBottom: '2rem' }} />
-    <h3>Seguro para Auto: Rdad. Civil contra terceros (incluye grúa).</h3>
+    <h3>Seguro para Auto: Rdad. Civil contra terceros (incluye grúa). Precio mensual: $ 25.000</h3>
     <img src={imagenAuto} style={{ maxWidth: '30%', borderRadius: '12px', marginBottom: '2rem' }} />
-    <h3>Seguro para Taxi/Remise: Rdad. Civil contra terceros (no incluye grúa).</h3>
+    <h3>Seguro para Taxi/Remise: Rdad. Civil contra terceros (no incluye grúa). Precio mensual: $ 45.000</h3>
     <img src={imagenTaxi} style={{ maxWidth: '30%', borderRadius: '12px', marginBottom: '2rem' }} />
 
     </div>
