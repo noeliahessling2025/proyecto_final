@@ -10,6 +10,7 @@ const Footer = () => {
     <footer className={styles.footerContainer}>
       <div className={styles.footerContent}>
         <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+        <p>SSN N° de inscripción: 1234</p>
         
         {/* Sección de redes sociales */}
         <div className={styles.socialMedia}>
@@ -30,9 +31,9 @@ const Footer = () => {
         
         <div className={styles.footerLinks}>
           <div>
-            <a href="/about">Alte. Brown 366-Salta Capital</a><br />
-            <a href="/contact">seguros_hessling10@gmail.com</a><br />
-            <a href="/privacy">WhatsApp (387)4484999</a>
+              <span>Alte. Brown 366-Salta Capital</span><br />
+              <span>seguros_hessling10@gmail.com</span><br />
+              <span>WhatsApp (387)4484999</span>
           </div>
         </div>
       </div>
